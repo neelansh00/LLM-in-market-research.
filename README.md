@@ -35,7 +35,7 @@ Example only supports Unix-like systems (such as Linux, macOS, BSD). If you are 
 
 Then, follow the easy steps to install and get started using the sample app.
 
-# Step 1: Clone the repository
+## Step 1: Clone the repository
 This is done with the git clone command followed by the URL of the repository:
 ```
 git clone https://github.com/neelansh00/LLM-in-market-research..git
@@ -44,7 +44,7 @@ Next, navigate to the project folder:
 ```
 cd LLM-in-market-research.
 ```
-# Step 2: Set environment variables
+## Step 2: Set environment variables
 Create `.env` file in the root directory of the project, copy and paste the below config, and replace the `{OPENAI_API_KEY}` configuration value with your key.
 ```
 OPENAI_API_TOKEN={OPENAI_API_KEY}
@@ -59,26 +59,26 @@ DROPBOX_LOCAL_FOLDER_PATH="../../../mnt/c/Users/bumur/Dropbox/documents"
 ```
 Replace DROPBOX_LOCAL_FOLDER_PATH with your local Dropbox folder path and optionally, you customize other values.
 
-# Step 3 (Optional): Create a new virtual environment
+## Step 3 (Optional): Create a new virtual environment
 Create a new virtual environment in the same folder and activate that environment:
 ```
 python -m venv pw-env && source pw-env/bin/activate
 ```
-# Step 4 Install the app dependencies
+## Step 4 Install the app dependencies
 Install the required packages:
 ```
 pip install --upgrade -r requirements.txt
 ```
-# Step 5: Run and start to use it
+## Step 5: Run and start to use it
 You start the application by navigating to llm_app folder and running main.py:
 ```python
 python main.py
 ```
 When the application runs successfully, you should see output something like this:
 
-# Step 6: Run Streamlit UI for file upload
+## Step 6: Run Streamlit UI for file upload
 You can run the UI separately by running Streamlit app `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
 
-# Data used 
+## Data used 
 Here i have used the data after the closing bell on 8th march 2024 but the data can be altered through dropbox.
 [8thmarch.pdf](https://github.com/neelansh00/LLM-in-market-research./files/14550733/8thmarch.pdf)
