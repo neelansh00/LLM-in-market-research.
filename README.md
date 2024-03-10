@@ -8,6 +8,10 @@ User can ask questions such as :-
 
     <img width="304" alt="Screenshot 2024-03-10 204856" src="https://github.com/neelansh00/LLM-in-market-research./assets/146512226/e671c35e-7b18-4503-8725-e6b45750268c">
 
+## Data used 
+Here i have used the data after the closing bell on 8th march 2024 but the data can be altered through dropbox.
+[8thmarch.pdf](https://github.com/neelansh00/LLM-in-market-research./files/14550733/8thmarch.pdf)
+
 ## End User
 Primary end users of the RAG-enabled LLM app for stock price data would include Novice Investors , Students and Educators, Small Investors, Financial Advisors, Entrepreneurs and Startups, General Public.
 
@@ -79,6 +83,9 @@ When the application runs successfully, you should see output something like thi
 ## Step 6: Run Streamlit UI for file upload
 You can run the UI separately by running Streamlit app `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
 
-## Data used 
-Here i have used the data after the closing bell on 8th march 2024 but the data can be altered through dropbox.
-[8thmarch.pdf](https://github.com/neelansh00/LLM-in-market-research./files/14550733/8thmarch.pdf)
+
+https://github.com/neelansh00/LLM-in-market-research./assets/146512226/37339906-d439-40d8-a37f-3734bd52a890
+
+
+
+
