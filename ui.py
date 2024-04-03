@@ -10,7 +10,7 @@ api_port = int(os.environ.get("PORT", 8080))
 
 
 # Streamlit UI elements
-st.title("Dropbox Search Tool")
+st.title("AI Market Research Tool")
 
 question = st.text_input(
     "Search for something",
