@@ -80,7 +80,8 @@ When the application runs successfully, you should see output something like thi
 You can run the UI separately by running Streamlit app `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
 
 
-https://github.com/neelansh00/LLM-in-market-research./assets/146512226/37339906-d439-40d8-a37f-3734bd52a890
+https://github.com/neelansh00/LLM-in-market-research./assets/146512226/de776ece-d7cd-4eb7-8a5a-439169afa806
+
 
 
 
